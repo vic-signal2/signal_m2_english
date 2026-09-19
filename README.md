@@ -25,7 +25,7 @@ a browser and it runs.
 
 ## Running it
 
-Open `signal_m2_en.html` in any modern browser. On a phone it is the real
+Open `Signal_M2_English.html` in any modern browser. On a phone it is the real
 experience: **95% of users are on mobile**, and the build is designed for an
 iPhone 13 viewport first.
 
