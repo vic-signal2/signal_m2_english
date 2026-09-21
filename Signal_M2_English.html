@@ -33,6 +33,7 @@
   --line:#E8E5F3; --line-2:#C7C0E0; --line-soft:#F0EEF9; --mist:#F4F1FD;
   --violet:#6B4ED8; --violet-dark:#523BAE; --lilac:#AD92F0; --lilac-soft:#D8CCF8;
   --calm:#3E9E86; --warm:#D9962F; --hot:#D2565A;
+  --risk:var(--hot); /* a área sensível usava --risk sem que ela existisse (D4, 20/09) */
   --r-sm:8px; --r-md:14px; --r-lg:22px; --r-xl:30px;
   --shadow-1:0 1px 2px rgba(20,18,28,.04), 0 6px 18px -8px rgba(20,18,28,.10);
   --shadow-2:0 2px 6px rgba(20,18,28,.05), 0 24px 48px -24px rgba(20,18,28,.20);
@@ -1690,9 +1691,9 @@ const CORPUS = {
        "Saying no clearly when it is not possible."
       ],
       "fora": [
-       "Pequenos descumprimentos educando o mercado a desconfiar.",
+       "Small broken promises teaching the market to distrust.",
        "Promising to close the deal and scrambling to adjust later.",
-       "Desculpa recorrente no lugar de entrega."
+       "Recurring excuses in place of delivery."
       ]
      },
      "custo": {
@@ -1781,14 +1782,14 @@ const CORPUS = {
      ],
      "alcance": {
       "dentro": [
-       "Falar a verdade.",
+       "Telling the truth.",
        "Keeping your word.",
        "Not going behind anyone's back."
       ],
       "fora": [
-       "Pagar certo e em dia.",
+       "Paying correctly and on time.",
        "Keeping a promise of promotion.",
-       "Combinar e honrar o combinado."
+       "Agreeing, and honoring what was agreed."
       ]
      },
      "custo": {
@@ -1818,7 +1819,7 @@ const CORPUS = {
        "Asking for what was agreed, without embarrassment."
       ],
       "fora": [
-       "Pagamento em dia e palavra honrada.",
+       "Payment on time and a word kept.",
        "Changing the rules after the game starts.",
        "Their promise that never becomes a contract."
       ]
@@ -1847,7 +1848,7 @@ const CORPUS = {
       "dentro": [
        "Governance that works: what is reported is what happens.",
        "Audits with no surprises.",
-       "Conflitos de interesse declarados."
+       "Conflicts of interest declared."
       ],
       "fora": [
        "Untouchable figures and unwritten rules.",
@@ -2076,7 +2077,7 @@ const CORPUS = {
       ],
       "fora": [
        "A stated dream detached from the decisions.",
-       "Narrativa boa, tese ruim.",
+       "Good narrative, bad thesis.",
        "A new strategy at every funding round."
       ]
      },
@@ -2231,7 +2232,7 @@ const CORPUS = {
      ],
      "alcance": {
       "dentro": [
-       "Ajudar o colega no aperto.",
+       "Helping a colleague in a pinch.",
        "Playing along with the team.",
        "Staying out of gossip."
       ],
@@ -2300,7 +2301,7 @@ const CORPUS = {
        "Conflict treated as information."
       ],
       "fora": [
-       "Silos e feudos aparecendo no resultado.",
+       "Silos and fiefdoms showing up in the results.",
        "Internal war with holes in the P&L.",
        "Depending on heroes to unblock teams."
       ]
@@ -2458,7 +2459,7 @@ const CORPUS = {
       "dentro": [
        "Taking care of yourself and asking for help when you need it.",
        "Not carrying it all yourself.",
-       "Descansar de verdade na folga."
+       "Truly resting on your days off."
       ],
       "fora": [
        "Respecting hours, rest and health.",
@@ -2525,7 +2526,7 @@ const CORPUS = {
        "Reviewing what failed, without a witch hunt."
       ],
       "fora": [
-       "Cultura de culpa evaporando margem.",
+       "A blame culture burning through margin.",
        "Energy spent on defense, not on delivery.",
        "Mistakes hidden until they become a crisis."
       ]
@@ -2591,8 +2592,8 @@ const CORPUS = {
       ],
       "fora": [
        "Systems, roles and meetings that today's size does not call for.",
-       "Complexidade comprada cedo demais, parada na prateleira.",
-       "Burocracia interna imitando empresa grande."
+       "Complexity bought too early, sitting on the shelf.",
+       "Internal bureaucracy imitating a big company."
       ]
      },
      "custo": {
@@ -2686,7 +2687,7 @@ const CORPUS = {
        "Keeping your station in order."
       ],
       "fora": [
-       "Dar ferramenta e material direito.",
+       "Providing proper tools and materials.",
        "Putting enough people on the work.",
        "Organizing the work so it does not become a mess."
       ]
@@ -2719,7 +2720,7 @@ const CORPUS = {
       ],
       "fora": [
        "Their internal disorganization.",
-       "Virar gerente de projeto gratuito da casa.",
+       "Becoming their unpaid project manager.",
        "A client process that does not move."
       ]
      },
@@ -2750,7 +2751,7 @@ const CORPUS = {
        "A budget that matches the real operation."
       ],
       "fora": [
-       "Caos operacional queimando caixa.",
+       "Operational chaos burning cash.",
        "Growth the organization cannot sustain.",
        "Invisible rework eating into the margin."
       ]
@@ -2911,7 +2912,7 @@ const CORPUS = {
        "Asking when you do not know."
       ],
       "fora": [
-       "Dar treinamento de verdade.",
+       "Providing real training.",
        "Explaining things in a way people understand.",
        "Not letting knowledge leave with the person who leaves."
       ]
@@ -2976,7 +2977,7 @@ const CORPUS = {
       ],
       "fora": [
        "A company held hostage by two minds.",
-       "Pessoa-chave saindo leva o valor junto.",
+       "A key person leaving takes the value with them.",
        "Learning that is lost every cycle."
       ]
      },
@@ -3105,7 +3106,7 @@ const CORPUS = {
       ],
       "fora": [
        "The quality of support teams, resource policy and metrics governance.",
-       "A cultura de procurar culpado em vez de causa.",
+       "The culture of looking for someone to blame instead of a cause.",
        "What happens to those who make mistakes here, and to those who do not deliver."
       ]
      },
@@ -3163,7 +3164,7 @@ const CORPUS = {
      ],
      "alcance": {
       "dentro": [
-       "Entregar o combinado, documentado.",
+       "Delivering what was agreed, documented.",
        "Approvals and changes in writing.",
        "Accounting for what is yours."
       ],
@@ -3425,8 +3426,8 @@ const CORPUS = {
        "An NPS that survives the end of the discount."
       ],
       "fora": [
-       "Receita sustentada em desconto e promessa.",
-       "Churn escondido no discurso comercial.",
+       "Revenue propped up by discounts and promises.",
+       "Churn hidden in the sales pitch.",
        "Sales that delivery cannot keep up with."
       ]
      },
@@ -3491,7 +3492,7 @@ const CORPUS = {
       ],
       "fora": [
        "Pivoting out of anxiety every week.",
-       "Mudar tudo antes de qualquer teste maturar.",
+       "Changing everything before any test can mature.",
        "New things running over what already sold."
       ]
      },
@@ -3588,7 +3589,7 @@ const CORPUS = {
       "fora": [
        "Explaining changes beforehand.",
        "Not letting news land as a surprise.",
-       "Dar tempo de aprender o novo jeito."
+       "Giving time to learn the new way."
       ]
      },
      "custo": {
@@ -3618,7 +3619,7 @@ const CORPUS = {
        "Updating the deadline along with the new request."
       ],
       "fora": [
-       "As viradas internas de prioridade deles.",
+       "Their internal shifts in priority.",
        "New urgency without repricing the contract.",
        "A project paused and resumed at no cost to them."
       ]
@@ -3650,7 +3651,7 @@ const CORPUS = {
        "Fast response to a market move."
       ],
       "fora": [
-       "Rigidez diante do mercado mudando.",
+       "Rigidity in the face of a changing market.",
        "Compulsive pivoting destroying focus.",
        "Change announced that never happens."
       ]
@@ -3808,7 +3809,7 @@ const CORPUS = {
       "dentro": [
        "Saying what needs saying, calmly.",
        "Asking when you did not understand.",
-       "Passar o recado certo adiante."
+       "Passing the right message along."
       ],
       "fora": [
        "Giving notice ahead of time.",
@@ -4222,34 +4223,34 @@ const SINAL = {
  },
  "de": {
   "A": [
-   "of the business",
-   "of the leaders",
-   "from you and the team"
+   "the business",
+   "the leaders",
+   "you and the team"
   ],
   "B": [
-   "da empresa",
-   "of leadership",
-   "from you and the team"
+   "the company",
+   "leadership",
+   "you and the team"
   ],
   "C": [
-   "da empresa",
-   "of leadership",
-   "from you and the team"
+   "the company",
+   "leadership",
+   "you and the team"
   ],
   "D": [
-   "da empresa",
-   "da chefia",
-   "of colleagues"
+   "the company",
+   "management",
+   "your colleagues"
   ],
   "E": [
-   "do cliente",
-   "of the client's leaders",
-   "do time do cliente"
+   "the client",
+   "the client's leaders",
+   "the client's team"
   ],
   "Z": [
-   "da empresa",
-   "of leadership",
-   "da equipe"
+   "the company",
+   "leadership",
+   "the team"
   ]
  },
  "pergunta_preterito": {
@@ -4379,7 +4380,7 @@ const EMPRESAS = [
   "pais": "Brazil",
   "sinais": 250,
   "nota": 68,
-  "faixa": "501 a 5.000"
+  "faixa": "501 to 5,000"
  },
  {
   "n": "Vertente Group",
@@ -4387,7 +4388,7 @@ const EMPRESAS = [
   "pais": "Brazil",
   "sinais": 162,
   "nota": 58,
-  "faixa": "501 a 5.000"
+  "faixa": "501 to 5,000"
  },
  {
   "n": "Vitoria House",
@@ -4395,7 +4396,7 @@ const EMPRESAS = [
   "pais": "Brazil",
   "sinais": 118,
   "nota": 53,
-  "faixa": "501 a 5.000"
+  "faixa": "501 to 5,000"
  },
  {
   "n": "Aurora Health",
@@ -4403,7 +4404,7 @@ const EMPRESAS = [
   "pais": "Brazil",
   "sinais": 107,
   "nota": 75,
-  "faixa": "501 a 5.000"
+  "faixa": "501 to 5,000"
  },
  {
   "n": "Prisma Consulting",
@@ -4411,7 +4412,7 @@ const EMPRESAS = [
   "pais": "Brazil",
   "sinais": 95,
   "nota": 50,
-  "faixa": "501 a 5.000"
+  "faixa": "501 to 5,000"
  },
  {
   "n": "North Digital",
@@ -4419,7 +4420,7 @@ const EMPRESAS = [
   "pais": "Brazil",
   "sinais": 85,
   "nota": 63,
-  "faixa": "501 a 5.000"
+  "faixa": "501 to 5,000"
  },
  {
   "n": "Beehive Education",
@@ -4427,7 +4428,7 @@ const EMPRESAS = [
   "pais": "Brazil",
   "sinais": 72,
   "nota": 72,
-  "faixa": "51 a 500"
+  "faixa": "51 to 500"
  },
  {
   "n": "Apex Holdings",
@@ -4435,7 +4436,7 @@ const EMPRESAS = [
   "pais": "Brazil",
   "sinais": 62,
   "nota": 46,
-  "faixa": "51 a 500"
+  "faixa": "51 to 500"
  },
  {
   "n": "Serena Knitwear",
@@ -4443,7 +4444,7 @@ const EMPRESAS = [
   "pais": "Brazil",
   "sinais": 34,
   "nota": 10,
-  "faixa": "501 a 5.000"
+  "faixa": "501 to 5,000"
  },
  {
   "n": "Vertex Labs",
@@ -4451,7 +4452,7 @@ const EMPRESAS = [
   "pais": "United States",
   "sinais": 21,
   "nota": 72,
-  "faixa": "51 a 500"
+  "faixa": "51 to 500"
  }
 ];
 const DIARIO = {
@@ -4465,7 +4466,7 @@ const DIARIO = {
   "C": "Team: coordination, analysis, specialist",
   "D": "Operations: plant, field, warehouse",
   "E": "Service provider",
-  "Z": "Investidor"
+  "Z": "Investor"
  },
  "passos_ativos": [
   {
@@ -4589,7 +4590,7 @@ const DIARIO = {
       "id": "limite",
       "pergunta": "What are you no longer willing to carry alone in this business? What boundaries do you need to set?",
       "apoio": "It is not what others did: these are the rules you choose to follow from now on.",
-      "angulo": "o limite",
+      "angulo": "the boundary",
       "n_ordem": 3
      }
     ],
@@ -4598,7 +4599,7 @@ const DIARIO = {
       "id": "limite",
       "pergunta": "What are you no longer willing to absorb for this team? What boundaries do you need to set?",
       "apoio": "It is not what others did: these are the rules you choose to follow from now on.",
-      "angulo": "o limite",
+      "angulo": "the boundary",
       "n_ordem": 3
      }
     ],
@@ -4607,7 +4608,7 @@ const DIARIO = {
       "id": "limite",
       "pergunta": "What are you no longer willing to accept in order to stay here? What boundaries do you need to set?",
       "apoio": "It is not what others did: these are the rules you choose to follow from now on.",
-      "angulo": "o limite",
+      "angulo": "the boundary",
       "n_ordem": 3
      }
     ],
@@ -4616,7 +4617,7 @@ const DIARIO = {
       "id": "limite",
       "pergunta": "What will you no longer accept in your working day? What boundaries do you need to set?",
       "apoio": "It is not what others do: these are your rules from here on.",
-      "angulo": "o limite",
+      "angulo": "the boundary",
       "n_ordem": 3
      }
     ],
@@ -4625,7 +4626,7 @@ const DIARIO = {
       "id": "limite",
       "pergunta": "What are you no longer willing to accept in this contract? What boundaries do you need to set?",
       "apoio": "It is not what the client does: these are the lines you choose to hold.",
-      "angulo": "o limite",
+      "angulo": "the boundary",
       "n_ordem": 3
      }
     ],
@@ -4634,7 +4635,7 @@ const DIARIO = {
       "id": "limite",
       "pergunta": "What are you no longer willing to fund in this company? What boundaries do you need to set?",
       "apoio": "It is not their speech: it is the limits of your thesis.",
-      "angulo": "o limite",
+      "angulo": "the boundary",
       "n_ordem": 3
      }
     ]
@@ -4657,15 +4658,15 @@ const DIARIO = {
      {
       "id": "risco",
       "pergunta": "What is the biggest risk of continuing with this business? And of leaving it?",
-      "apoio": "Nomeie os dois lados. Medo escrito volta ao tamanho real.",
-      "angulo": "riscos de ficar e de sair",
+      "apoio": "Name both sides. A fear written down shrinks back to its real size.",
+      "angulo": "risks of staying and of leaving",
       "n_ordem": 5
      },
      {
       "id": "caminhos",
       "pergunta": "What paths exist inside this business? And outside it?",
       "apoio": "Inside: what can be changed. Outside: what would exist if you started over.",
-      "angulo": "caminhos dentro e fora",
+      "angulo": "paths inside and outside",
       "n_ordem": 6
      },
      {
@@ -4688,15 +4689,15 @@ const DIARIO = {
      {
       "id": "risco",
       "pergunta": "What is the biggest risk of staying in this position? And of leaving?",
-      "apoio": "Nomeie os dois lados. Medo escrito volta ao tamanho real.",
-      "angulo": "riscos de ficar e de sair",
+      "apoio": "Name both sides. A fear written down shrinks back to its real size.",
+      "angulo": "risks of staying and of leaving",
       "n_ordem": 5
      },
      {
       "id": "caminhos",
       "pergunta": "What paths exist in this position? And outside it or somewhere else?",
       "apoio": "Write both sides, even if one of them seems unlikely.",
-      "angulo": "caminhos dentro e fora",
+      "angulo": "paths inside and outside",
       "n_ordem": 6
      },
      {
@@ -4719,15 +4720,15 @@ const DIARIO = {
      {
       "id": "risco",
       "pergunta": "What is the biggest risk of staying? And of leaving?",
-      "apoio": "Nomeie os dois lados. Medo escrito volta ao tamanho real.",
-      "angulo": "riscos de ficar e de sair",
+      "apoio": "Name both sides. A fear written down shrinks back to its real size.",
+      "angulo": "risks of staying and of leaving",
       "n_ordem": 5
      },
      {
       "id": "caminhos",
       "pergunta": "What paths exist inside this company? And outside it?",
       "apoio": "Write both sides, even if one of them seems unlikely.",
-      "angulo": "caminhos dentro e fora",
+      "angulo": "paths inside and outside",
       "n_ordem": 6
      },
      {
@@ -4751,14 +4752,14 @@ const DIARIO = {
       "id": "risco",
       "pergunta": "What would you have to put up with if you stay? And what would you risk if you leave?",
       "apoio": "Think about both sides, without rushing.",
-      "angulo": "riscos de ficar e de sair",
+      "angulo": "risks of staying and of leaving",
       "n_ordem": 5
      },
      {
       "id": "caminhos",
       "pergunta": "What could improve inside? And what other opportunities exist outside?",
       "apoio": "Write both sides, in your own words.",
-      "angulo": "caminhos dentro e fora",
+      "angulo": "paths inside and outside",
       "n_ordem": 6
      },
      {
@@ -4781,15 +4782,15 @@ const DIARIO = {
      {
       "id": "risco",
       "pergunta": "What is the biggest risk of keeping this client? And of ending the relationship?",
-      "apoio": "Nomeie os dois lados. Medo escrito volta ao tamanho real.",
-      "angulo": "riscos de ficar e de sair",
+      "apoio": "Name both sides. A fear written down shrinks back to its real size.",
+      "angulo": "risks of staying and of leaving",
       "n_ordem": 5
      },
      {
       "id": "caminhos",
       "pergunta": "What paths exist with this client? And with others?",
       "apoio": "Write both sides, even if one of them seems unlikely.",
-      "angulo": "caminhos dentro e fora",
+      "angulo": "paths inside and outside",
       "n_ordem": 6
      },
      {
@@ -4813,14 +4814,14 @@ const DIARIO = {
       "id": "risco",
       "pergunta": "What is the biggest risk of keeping the capital here? And of leaving now?",
       "apoio": "Name both sides, with what you know today.",
-      "angulo": "riscos de ficar e de sair",
+      "angulo": "risks of staying and of leaving",
       "n_ordem": 5
      },
      {
       "id": "caminhos",
       "pergunta": "What paths exist in this company? And in another allocation of the same capital?",
       "apoio": "Write both sides, with numbers where you have them.",
-      "angulo": "caminhos dentro e fora",
+      "angulo": "paths inside and outside",
       "n_ordem": 6
      },
      {
@@ -4851,7 +4852,7 @@ const DIARIO = {
      },
      {
       "id": "muda_o_jogo",
-      "pergunta": "Desses, qual se acontecer muda o jogo?",
+      "pergunta": "Of those, which one would change the game if it happened?",
       "apoio": "Choose one. It is the one that will pull the others.",
       "angulo": "what changes the game",
       "n_ordem": 12
@@ -4868,7 +4869,7 @@ const DIARIO = {
      },
      {
       "id": "muda_o_jogo",
-      "pergunta": "Desses, qual se acontecer muda o jogo?",
+      "pergunta": "Of those, which one would change the game if it happened?",
       "apoio": "Choose one. It is the one that will pull the others.",
       "angulo": "what changes the game",
       "n_ordem": 12
@@ -4885,7 +4886,7 @@ const DIARIO = {
      },
      {
       "id": "muda_o_jogo",
-      "pergunta": "Desses, qual se acontecer muda o jogo?",
+      "pergunta": "Of those, which one would change the game if it happened?",
       "apoio": "Choose one. It is the one that will pull the others.",
       "angulo": "what changes the game",
       "n_ordem": 12
@@ -4903,7 +4904,7 @@ const DIARIO = {
      {
       "id": "muda_o_jogo",
       "pergunta": "Of those things, which one, if it happened, would truly change your life?",
-      "apoio": "Escolha um.",
+      "apoio": "Choose one.",
       "angulo": "what changes the game",
       "n_ordem": 12
      }
@@ -4919,7 +4920,7 @@ const DIARIO = {
      },
      {
       "id": "muda_o_jogo",
-      "pergunta": "Desses, qual se acontecer muda o jogo?",
+      "pergunta": "Of those, which one would change the game if it happened?",
       "apoio": "Choose one. It is the one that will pull the others.",
       "angulo": "what changes the game",
       "n_ordem": 12
@@ -4936,7 +4937,7 @@ const DIARIO = {
      },
      {
       "id": "muda_o_jogo",
-      "pergunta": "Desses, qual se acontecer muda o retorno de verdade?",
+      "pergunta": "Of those, which one would truly change the return if it happened?",
       "apoio": "Choose one. It is the one that will pull the others.",
       "angulo": "what changes the game",
       "n_ordem": 12
@@ -5009,7 +5010,7 @@ const DIARIO = {
  ],
  "banco_fora_de_uso": {
   "limites": {
-   "titulo": "Nomear os seus limites",
+   "titulo": "Naming your boundaries",
    "situacao": "It was a step until layer 85 and was left out of the final five. It exists in M1 as step 1. Full corpus for the six journeys.",
    "por_jornada": {
     "A": {
@@ -5039,7 +5040,7 @@ const DIARIO = {
    }
   },
   "riscos_e_oportunidades": {
-   "titulo": "Avaliar riscos e oportunidades",
+   "titulo": "Weighing risks and opportunities",
    "situacao": "Removed in layer 79. It exists in M1 as step 4, with a single question. The per-journey corpus exists and is unused.",
    "pergunta_curta_por_jornada": {
     "A": "What are the risks of continuing with this business as it is?",
@@ -5083,7 +5084,7 @@ const DIARIO = {
   },
   "plano": {
    "titulo": "Build your plan",
-   "situacao": "Removido na camada 78.",
+   "situacao": "Removed in layer 78.",
    "perguntas_da_versao_antiga": [],
    "sugestoes_por_jornada": {
     "A": [
@@ -5114,7 +5115,7 @@ const DIARIO = {
    }
   },
   "rede_de_apoio": {
-   "titulo": "Rede de apoio",
+   "titulo": "Support network",
    "situacao": "Became the step The story in layer 84.",
    "perguntas_da_versao_antiga": []
   },
@@ -5153,7 +5154,7 @@ const DIARIO = {
      },
      {
       "id": "balanco",
-      "titulo": "Pesar a ideia",
+      "titulo": "Weighing the idea",
       "descricao": "Every business that is born carries strength and risk at once. Weighing both honestly is what separates vision from stubbornness."
      },
      {
@@ -5168,12 +5169,12 @@ const DIARIO = {
      },
      {
       "id": "objetivos",
-      "titulo": "Definir o movimento",
+      "titulo": "Defining the move",
       "descricao": "After the Triangle, Communication: how to tell this authentically and how to sell. An entrepreneur keeps moving. Always."
      },
      {
       "id": "rede",
-      "titulo": "Conselho de bordo",
+      "titulo": "Advisory board",
       "descricao": "No business grows alone. Who walks with you matters as much as the path."
      }
     ],
@@ -5185,7 +5186,7 @@ const DIARIO = {
      },
      {
       "id": "balanco",
-      "titulo": "Mapear as narrativas",
+      "titulo": "Mapping the narratives",
       "descricao": "Accumulated pressure becomes a story: villains, heroes and victims. That story spreads through the organization like a silent illness. Mapping your part in it is courage, not weakness."
      },
      {
@@ -5200,17 +5201,17 @@ const DIARIO = {
      },
      {
       "id": "objetivos",
-      "titulo": "Construir o convite",
+      "titulo": "Building the invitation",
       "descricao": "A renovation becomes a crossing when it is told as a story of mutual growth that everyone wants to be part of. An invitation, not a judgment."
      },
      {
       "id": "plano",
-      "titulo": "Montar o roadmap",
+      "titulo": "Building the roadmap",
       "descricao": "The story only sticks when paired with a renovation. The roadmap is that renovation with a date and a face: what the team will see happen, and in what order."
      },
      {
       "id": "rede",
-      "titulo": "Aliados da travessia",
+      "titulo": "Allies for the crossing",
       "descricao": "Changing the narrative is not a solo act. It needs people who will hold the new story with you."
      }
     ]
@@ -5228,7 +5229,7 @@ const DIARIO = {
    "passos": [
     {
      "id": "limites",
-     "titulo": "Nomear os seus limites",
+     "titulo": "Naming your boundaries",
      "perguntas": [
       "Write here in your own words what you will no longer accept. What are your boundaries?"
      ]
@@ -5241,7 +5242,7 @@ const DIARIO = {
       "pro",
       "<span class=\"contra\">Cons:</span> describe three things that least motivate you to work here.",
       "contra",
-      "Avaliar riscos e oportunidades",
+      "Weighing risks and opportunities",
       "What is the worst that could happen if you decided to leave the company?",
       "What real opportunities exist for you inside this company?",
       "What opportunities could exist outside this company?"
@@ -5249,7 +5250,7 @@ const DIARIO = {
     },
     {
      "id": "riscos",
-     "titulo": "Avaliar riscos e oportunidades",
+     "titulo": "Weighing risks and opportunities",
      "perguntas": [
       "What is the worst that could happen if you decided to leave the company?",
       "What real opportunities exist for you inside this company?",
@@ -5298,7 +5299,7 @@ const DIARIO = {
     },
     {
      "id": "riscos",
-     "titulo": "Riscos",
+     "titulo": "Risks",
      "pergunta": "comes from RISCOS85, by journey, plus: And what would the risks of leaving be? Name both sides."
     },
     {
@@ -5322,7 +5323,7 @@ const DIARIO = {
        },
        {
         "pergunta": "What does this business give you today that you do not want to lose?",
-        "apoio": "Dinheiro, autonomia, identidade, orgulho."
+        "apoio": "Money, autonomy, identity, pride."
        },
        {
         "pergunta": "How long can you sustain this business as it is, with the cash and the energy you have today?",
@@ -5336,7 +5337,7 @@ const DIARIO = {
        },
        {
         "pergunta": "What does this position give you today that you do not want to lose?",
-        "apoio": "Renda, aprendizado, alcance, estabilidade."
+        "apoio": "Income, learning, reach, stability."
        },
        {
         "pergunta": "How long can you lead like this, the way things are today?",
@@ -5481,7 +5482,7 @@ const DIARIO = {
     },
     {
      "id": "monitorar",
-     "titulo": "Monitorar",
+     "titulo": "Monitor",
      "perguntas_por_jornada": {
       "A": [
        {
@@ -5567,7 +5568,7 @@ const DIARIO = {
         "n": 3
        },
        {
-        "pergunta": "Desses, qual muda o jogo de verdade se acontecer?"
+        "pergunta": "Of those, which one truly changes the game if it happens?"
        }
       ],
       "B": [
@@ -5612,7 +5613,7 @@ const DIARIO = {
         "n": 3
        },
        {
-        "pergunta": "Desses, qual muda a tese se acontecer?"
+        "pergunta": "Of those, which one changes the thesis if it happens?"
        }
       ]
      }
@@ -5743,8 +5744,8 @@ const DIARIO = {
    "situacao": "Earlier version of this same proposal, with 10 questions: risk lived in the step Boundaries and support in the step Decision.",
    "passos": [
     "1 The why",
-    "2 Limites e riscos",
-    "3 Objetivos e caminhos",
+    "2 Boundaries and risks",
+    "3 Goals and paths",
     "4 The story",
     "5 The decision"
    ]
@@ -5753,10 +5754,10 @@ const DIARIO = {
    "situacao": "Earlier version: 5 steps, 11 questions. Boundaries had for how long; horizons had risk and opportunities; goals had timeframe and support.",
    "passos": [
     "1 The why",
-    "2 Limites",
-    "3 Horizontes",
+    "2 Boundaries",
+    "3 Horizons",
     "4 The story",
-    "5 Objetivos"
+    "5 Goals"
    ]
   },
   "perguntas_arquivadas": [],
@@ -5877,9 +5878,9 @@ const ARTE = {
   "integridade": {
    "nome": "Integrity",
    "cor": "#544A8C",
-   "virtude": "Sinceridade",
+   "virtude": "Sincerity",
    "desvios": [
-    "Fanatismo",
+    "Fanaticism",
     "Manipulation",
     "Submission",
     "Recklessness"
@@ -5902,7 +5903,7 @@ const ARTE = {
   "proposito": {
    "nome": "Purpose",
    "cor": "#4A90C8",
-   "virtude": "Originalidade",
+   "virtude": "Originality",
    "desvios": [
     "Presumption",
     "Illusion",
@@ -5927,11 +5928,11 @@ const ARTE = {
   "colaboracao": {
    "nome": "Collaboration",
    "cor": "#5CBBA0",
-   "virtude": "Alegria",
+   "virtude": "Joy",
    "desvios": [
-    "Superioridade",
-    "Intriga",
-    "Vitimismo",
+    "Superiority",
+    "Intrigue",
+    "Victimhood",
     "Division"
    ],
    "frases": [
@@ -5941,7 +5942,7 @@ const ARTE = {
     "Talking behind backs divides what the truth would unite.",
     "Victimhood looks for an audience. Collaboration looks for a partner.",
     "Splitting the team into sides is losing twice.",
-    "Time forte disputa ideias e protege pessoas.",
+    "A strong team fights over ideas and protects people.",
     "Collaborating is joining forces without erasing voices.",
     "Ease between colleagues is a result, not luck.",
     "Helping without keeping score is what builds trust.",
@@ -5952,11 +5953,11 @@ const ARTE = {
   "autorresponsabilidade": {
    "nome": "Self-responsibility",
    "cor": "#6E3B3B",
-   "virtude": "Autocuidado",
+   "virtude": "Self-care",
    "desvios": [
-    "Sobrecarga",
+    "Overload",
     "Subservience",
-    "Apatia",
+    "Apathy",
     "Blame"
    ],
    "frases": [
@@ -5977,12 +5978,12 @@ const ARTE = {
   "ordem": {
    "nome": "Order",
    "cor": "#F7D24B",
-   "virtude": "Clareza",
+   "virtude": "Clarity",
    "desvios": [
-    "Perfeccionismo",
-    "Conformidade",
-    "Deformidade",
-    "Caos"
+    "Perfectionism",
+    "Conformity",
+    "Deformity",
+    "Chaos"
    ],
    "frases": [
     "Clarity is not rigidity. It gives form to what was scattered.",
@@ -5993,7 +5994,7 @@ const ARTE = {
     "Chaos charges in rework what clarity would charge in minutes.",
     "Always doing it the way the loudest boss wants is not order.",
     "A decision that fits in one sentence is already half made.",
-    "Bom o suficiente entregue vence perfeito imaginado.",
+    "Good enough and delivered beats perfect and imagined.",
     "Beauty, here, is a form that found its own measure.",
     "Order is the form that serves the work, not the one that blocks it.",
     "Clarity is the care you offer before demanding results."
@@ -6002,10 +6003,10 @@ const ARTE = {
   "conhecimento": {
    "nome": "Knowledge",
    "cor": "#E9CE6C",
-   "virtude": "Capacidade",
+   "virtude": "Capability",
    "desvios": [
     "Pretension",
-    "Superficialidade",
+    "Superficiality",
     "Complication",
     "Ignorance"
    ],
@@ -6015,7 +6016,7 @@ const ARTE = {
     "Complicating is the elegant way of hiding that you do not know.",
     "Not knowing is a starting point. Pretending to know is a full stop.",
     "Knowledge without practice is opinion in good clothes.",
-    "A pergunta feita a tempo economiza meses de conserto.",
+    "A question asked in time saves months of repair.",
     "Surface is enough for a conversation, not to hold something up.",
     "Capability is built by erring close to someone who teaches.",
     "Assuming you already know closes the door to learning.",
@@ -6027,10 +6028,10 @@ const ARTE = {
   "responsabilidade": {
    "nome": "Responsibility",
    "cor": "#F2DE8C",
-   "virtude": "Zelo",
+   "virtude": "Diligence",
    "desvios": [
-    "Rigidez",
-    "Controle",
+    "Rigidity",
+    "Control",
     "Inefficiency",
     "Neglect"
    ],
@@ -6052,12 +6053,12 @@ const ARTE = {
   "servico": {
    "nome": "Service",
    "cor": "#E08A6E",
-   "virtude": "Receptividade",
+   "virtude": "Receptiveness",
    "desvios": [
     "Self-demand",
-    "Agradar o outro",
+    "Pleasing others",
     "Inadequacy",
-    "Falta de objetividade"
+    "Lack of objectivity"
    ],
    "frases": [
     "To serve is to receive the other's need before answering.",
@@ -6079,9 +6080,9 @@ const ARTE = {
    "cor": "#C9491F",
    "virtude": "Acceptance",
    "desvios": [
-    "Apego",
-    "Impulsividade",
-    "Desespero",
+    "Attachment",
+    "Impulsiveness",
+    "Despair",
     "Disconnection"
    ],
    "frases": [
@@ -6102,18 +6103,18 @@ const ARTE = {
   "comunicacao": {
    "nome": "Communication",
    "cor": "#EE7080",
-   "virtude": "Reciprocidade",
+   "virtude": "Reciprocity",
    "desvios": [
     "Imposition",
     "Dependence",
-    "Desalinhamento",
-    "Rebeldia"
+    "Misalignment",
+    "Rebelliousness"
    ],
    "frases": [
     "Reciprocity is speaking and staying available to listen.",
     "Imposing your own reasoning ends the conversation before it starts.",
     "What goes unsaid also communicates, and communicates worse.",
-    "Alinhar leva minutos. Desalinhar custa semanas.",
+    "Aligning takes minutes. Misaligning costs weeks.",
     "Disagreeing out loud is cheaper than agreeing on the surface.",
     "Whoever only waits for answers outsources their own voice.",
     "Resisting for the sake of resisting is also a failure to communicate.",
@@ -6133,7 +6134,7 @@ const PULSOS = [
   "sinais": 107,
   "comp": 73,
   "nota": 75,
-  "faixa": "501 a 5.000",
+  "faixa": "501 to 5,000",
   "pilares": {
    "colaboracao": 67,
    "servico": 69,
@@ -6165,7 +6166,7 @@ const PULSOS = [
   "sinais": 72,
   "comp": 36,
   "nota": 72,
-  "faixa": "51 a 500",
+  "faixa": "51 to 500",
   "pilares": {
    "mudanca": 61,
    "comunicacao": 65,
@@ -6197,7 +6198,7 @@ const PULSOS = [
   "sinais": 21,
   "comp": 12,
   "nota": 72,
-  "faixa": "51 a 500",
+  "faixa": "51 to 500",
   "pilares": {
    "proposito": 57,
    "mudanca": 62,
@@ -6229,7 +6230,7 @@ const PULSOS = [
   "sinais": 250,
   "comp": 133,
   "nota": 68,
-  "faixa": "501 a 5.000",
+  "faixa": "501 to 5,000",
   "pilares": {
    "comunicacao": 56,
    "responsabilidade": 62,
@@ -6261,7 +6262,7 @@ const PULSOS = [
   "sinais": 47,
   "comp": 23,
   "nota": 64,
-  "faixa": "51 a 500",
+  "faixa": "51 to 500",
   "pilares": {
    "conhecimento": 55,
    "responsabilidade": 56,
@@ -6293,7 +6294,7 @@ const PULSOS = [
   "sinais": 85,
   "comp": 56,
   "nota": 63,
-  "faixa": "501 a 5.000",
+  "faixa": "501 to 5,000",
   "pilares": {
    "responsabilidade": 51,
    "ordem": 58,
@@ -6325,7 +6326,7 @@ const PULSOS = [
   "sinais": 214,
   "comp": 128,
   "nota": 62,
-  "faixa": "501 a 5.000",
+  "faixa": "501 to 5,000",
   "pilares": {
    "autorresponsabilidade": 46,
    "colaboracao": 49,
@@ -6389,7 +6390,7 @@ const PULSOS = [
   "sinais": 162,
   "comp": 89,
   "nota": 58,
-  "faixa": "501 a 5.000",
+  "faixa": "501 to 5,000",
   "pilares": {
    "responsabilidade": 50,
    "ordem": 47,
@@ -6421,7 +6422,7 @@ const PULSOS = [
   "sinais": 118,
   "comp": 77,
   "nota": 53,
-  "faixa": "501 a 5.000",
+  "faixa": "501 to 5,000",
   "pilares": {
    "ordem": 39,
    "integridade": 45,
@@ -6453,7 +6454,7 @@ const PULSOS = [
   "sinais": 95,
   "comp": 50,
   "nota": 50,
-  "faixa": "501 a 5.000",
+  "faixa": "501 to 5,000",
   "pilares": {
    "servico": 41,
    "autorresponsabilidade": 40,
@@ -6485,7 +6486,7 @@ const PULSOS = [
   "sinais": 62,
   "comp": 43,
   "nota": 46,
-  "faixa": "51 a 500",
+  "faixa": "51 to 500",
   "pilares": {
    "colaboracao": 32,
    "mudanca": 40,
@@ -6517,7 +6518,7 @@ const PULSOS = [
   "sinais": 34,
   "comp": 20,
   "nota": 10,
-  "faixa": "501 a 5.000",
+  "faixa": "501 to 5,000",
   "pilares": {
    "ordem": 8,
    "mudanca": 8,
@@ -6645,20 +6646,20 @@ const VOZES = {
    "Chile",
    "Colombia",
    "Peru",
-   "Uruguai"
+   "Uruguay"
   ],
   "North America": [
    "United States",
    "Mexico",
    "Canada"
   ],
-  "Europa": [
+  "Europe": [
    "Portugal",
    "Spain",
    "United Kingdom",
-   "Alemanha",
+   "Germany",
    "France",
-   "Irlanda"
+   "Ireland"
   ],
   "Africa": [
    "Angola",
@@ -6668,7 +6669,7 @@ const VOZES = {
   "Asia": [
    "Japan",
    "India",
-   "Singapura"
+   "Singapore"
   ],
   "Oceania": [
    "Australia",
@@ -6686,28 +6687,28 @@ const PAISES = [
   {n:'Chile', s:'CL', d:'+56', f:'🇨🇱', c:'South America'},
   {n:'Colombia', s:'CO', d:'+57', f:'🇨🇴', c:'South America'},
   {n:'Peru', s:'PE', d:'+51', f:'🇵🇪', c:'South America'},
-  {n:'Uruguai', s:'UY', d:'+598', f:'🇺🇾', c:'South America'},
-  {n:'Paraguai', s:'PY', d:'+595', f:'🇵🇾', c:'South America'},
+  {n:'Uruguay', s:'UY', d:'+598', f:'🇺🇾', c:'South America'},
+  {n:'Paraguay', s:'PY', d:'+595', f:'🇵🇾', c:'South America'},
   {n:'Bolivia', s:'BO', d:'+591', f:'🇧🇴', c:'South America'},
   {n:'United States', s:'US', d:'+1', f:'🇺🇸', c:'North America'},
   {n:'Mexico', s:'MX', d:'+52', f:'🇲🇽', c:'North America'},
   {n:'Canada', s:'CA', d:'+1', f:'🇨🇦', c:'North America'},
-  {n:'Portugal', s:'PT', d:'+351', f:'🇵🇹', c:'Europa'},
-  {n:'Spain', s:'ES', d:'+34', f:'🇪🇸', c:'Europa'},
-  {n:'United Kingdom', s:'GB', d:'+44', f:'🇬🇧', c:'Europa'},
-  {n:'Germany', s:'DE', d:'+49', f:'🇩🇪', c:'Europa'},
-  {n:'France', s:'FR', d:'+33', f:'🇫🇷', c:'Europa'},
-  {n:'Irlanda', s:'IE', d:'+353', f:'🇮🇪', c:'Europa'},
-  {n:'Italy', s:'IT', d:'+39', f:'🇮🇹', c:'Europa'},
-  {n:'Holanda', s:'NL', d:'+31', f:'🇳🇱', c:'Europa'},
-  {n:'Switzerland', s:'CH', d:'+41', f:'🇨🇭', c:'Europa'},
-  {n:'Sweden', s:'SE', d:'+46', f:'🇸🇪', c:'Europa'},
+  {n:'Portugal', s:'PT', d:'+351', f:'🇵🇹', c:'Europe'},
+  {n:'Spain', s:'ES', d:'+34', f:'🇪🇸', c:'Europe'},
+  {n:'United Kingdom', s:'GB', d:'+44', f:'🇬🇧', c:'Europe'},
+  {n:'Germany', s:'DE', d:'+49', f:'🇩🇪', c:'Europe'},
+  {n:'France', s:'FR', d:'+33', f:'🇫🇷', c:'Europe'},
+  {n:'Ireland', s:'IE', d:'+353', f:'🇮🇪', c:'Europe'},
+  {n:'Italy', s:'IT', d:'+39', f:'🇮🇹', c:'Europe'},
+  {n:'Netherlands', s:'NL', d:'+31', f:'🇳🇱', c:'Europe'},
+  {n:'Switzerland', s:'CH', d:'+41', f:'🇨🇭', c:'Europe'},
+  {n:'Sweden', s:'SE', d:'+46', f:'🇸🇪', c:'Europe'},
   {n:'Angola', s:'AO', d:'+244', f:'🇦🇴', c:'Africa'},
   {n:'Mozambique', s:'MZ', d:'+258', f:'🇲🇿', c:'Africa'},
   {n:'South Africa', s:'ZA', d:'+27', f:'🇿🇦', c:'Africa'},
   {n:'Japan', s:'JP', d:'+81', f:'🇯🇵', c:'Asia'},
   {n:'India', s:'IN', d:'+91', f:'🇮🇳', c:'Asia'},
-  {n:'Singapura', s:'SG', d:'+65', f:'🇸🇬', c:'Asia'},
+  {n:'Singapore', s:'SG', d:'+65', f:'🇸🇬', c:'Asia'},
   {n:'China', s:'CN', d:'+86', f:'🇨🇳', c:'Asia'},
   {n:'United Arab Emirates', s:'AE', d:'+971', f:'🇦🇪', c:'Asia'},
   {n:'Australia', s:'AU', d:'+61', f:'🇦🇺', c:'Oceania'},
@@ -6761,16 +6762,16 @@ const PERFIL = {
        {v:2,b:'I am a specialist or analyst',s:'projects, analysis, technical and support teams'},
        {v:3,b:'I work in operations',s:'plant, field, store, warehouse, front line'}] },
   time:{ id:'time', t:'Do you have a team reporting to you?',
-    o:[{v:1,b:'Sim'},{v:2,b:'No'}] },
+    o:[{v:1,b:'Yes'},{v:2,b:'No'}] },
   tamanho:{ id:'tamanho', t:'How large is the company?',
-    o:[{v:1,b:'1 a 5 pessoas'},{v:2,b:'6 a 50 pessoas'},{v:3,b:'51 a 500 pessoas'},
-       {v:4,b:'501 a 5.000 pessoas'},{v:5,b:'More than 5,000 people'}] },
+    o:[{v:1,b:'1 to 5 people'},{v:2,b:'6 to 50 people'},{v:3,b:'51 to 500 people'},
+       {v:4,b:'501 to 5,000 people'},{v:5,b:'More than 5,000 people'}] },
   foco:{ id:'foco', t:'Choose a focus for this assessment.',
     a:'In a company this size, "the company" can mean different things. Your choice here sets the focus of your assessment.',
     o:[{v:4,b:'I will assess my local team, within my business unit.'},
        {v:3,b:'I will assess my business unit, in my country.'},
        {v:2,b:'I will assess the company, in my country.'},
-       {v:1,b:'Vou avaliar a empresa como um todo.'}] }
+       {v:1,b:'I will assess the company as a whole.'}] }
 };
 /* do topo para baixo: concordo totalmente primeiro */
 const AGREE = [['Strongly agree',100],['Agree',75],['Somewhat',50],['Disagree',25],['Strongly disagree',0]];
@@ -6813,7 +6814,7 @@ function jornadaDe(p){
   return 'C';
 }
 const JORNADA_NOME = {A:'Owner or co-founder',B:'Leadership with a team',C:'Coordination or analysis',
-  D:'Operations',E:'Service provider',Z:'Investidor'};
+  D:'Operations',E:'Service provider',Z:'Investor'};
 
 /* ---------- persistência ---------- */
 const store = {
@@ -6950,8 +6951,8 @@ function fraseCamadas(r){
     return 'The pressure is split between '+L[0].n.replace(/^d[aoe]s? /,'')+', '+
            L[1].n.replace(/^d[aoe]s? /,'')+' and '+L[2].n.replace(/^d[aoe]s? /,'')+', with no side weighing much more.';
   if(L[1].v - L[0].v < 8)
-    return 'The pressure comes more '+L[0].n+' and '+L[1].n+', and less from '+L[2].n+'.';
-  return 'The pressure comes more '+L[0].n+', and less from '+L[1].n+' and '+L[2].n+'.';
+    return 'The pressure comes more from '+L[0].n+' and from '+L[1].n+', and less from '+L[2].n+'.';
+  return 'The pressure comes more from '+L[0].n+', and less from '+L[1].n+' and '+L[2].n+'.';
 }
 function textoCamadas(r){ return (SINAL.camadas[r.jornada]||SINAL.camadas.C)[padraoCamadas(r.camadas)] || ''; }
 function padraoCamadas(c){
@@ -7009,7 +7010,7 @@ function piorFaceta(P){
   return P.facetas.slice().sort((a,b)=>(notaFaceta(P,a)-notaFaceta(P,b)))[0];
 }
 /* pilares abaixo de 78 abrem com "The noise"; acima, com "O sinal" */
-function prefixoPilar(v){ return v >= 78 ? 'O sinal:' : 'The noise:'; }
+function prefixoPilar(v){ return v >= 78 ? 'The signal:' : 'The noise:'; }
 function leituraPilar(k, r){
   const P = CORPUS.pilares[k], v = r.pilares[k], J = r.jornada, jd = P.jornadas[J] || P.jornadas.C;
   if(v >= 89) return P.high.integro;
@@ -7079,7 +7080,7 @@ function barra(){
       return '<button class="ni'+((S.rota===m.r||S.rota===dest)?' on':'')+(ok?'':' lk')+'" data-a="'+(ok?'ir':'trancado')+'" data-v="'+(ok?dest:esc(m.why))+'">'+
         (m.r==='conta' && !S.email ? 'Entrar' : m.n)+(ok?'':I.lock)+'</button>';
     }).join('')+'</nav>'+
-    '<button class="criar" data-a="criar">'+I.mais+'<span>Criar sinal</span></button>'+
+    '<button class="criar" data-a="criar">'+I.mais+'<span>Create signal</span></button>'+
     /* avatar com a inicial, que é o padrão de sistema: a pessoa associa
        aquele canto à própria conta sem precisar aprender */
     '<button class="hamb hamb--av" data-a="abrirConta" aria-label="Conta e ajustes">'+
@@ -7096,16 +7097,16 @@ function menuConta(){
     '<div class="mc__p" role="dialog" aria-label="Conta e ajustes">'+
       '<div class="mc__h"><div><div class="mc__n">'+(S.email ? esc(S.email) : 'You have not signed in yet')+'</div>'+
         '<div class="mc__s">'+(S.pago ? 'Report unlocked · 30 days' : 'No active report')+'</div></div>'+
-        '<button class="gav__x" data-a="fecharConta" aria-label="Fechar">'+I.x+'</button></div>'+
+        '<button class="gav__x" data-a="fecharConta" aria-label="Close">'+I.x+'</button></div>'+
       '<div class="mc__b">'+
         /* idioma e anonimato já vivem dentro da conta e das políticas: aqui
            ficam só a entrada, os planos, o suporte e os termos */
         item('conta', S.email ? 'My account' : 'Sign in to the account', S.email ? 'Plan, payments and your signals' : 'So you can return to your report later')+
         item('assinatura','Subscriptions','One-off, monthly and annual')+
-        item('suporte','Suporte','Talk to us by email')+
+        item('suporte','Support','Talk to us by email')+
         item('politicas','Terms and privacy','The Signal rules, in four sections')+
       '</div>'+
-      '<div class="mc__f"><button class="btn btn--q" data-a="sairConta">Sair da conta</button>'+
+      '<div class="mc__f"><button class="btn btn--q" data-a="sairConta">Sign out</button>'+
       '<span class="tiny">contact@sendsignal.live</span></div>'+
     '</div></div>';
 }
@@ -7259,17 +7260,17 @@ const POL = [
   '<p>The assistant is software and can be wrong.</p>'],
  ['Intellectual property',
   '<p>The <b>Ten Pillars of Harmony™</b>, the methodology, the assessment instrument, the texts and the Signal material are '+
-  '<b>propriedade intelectual de Victor B. Costa e da Vocalis Consulting</b>.</p>'+
+  '<b>the intellectual property of Victor B. Costa and Vocalis Consulting</b>.</p>'+
   '<p>They are protected by copyright and may not be copied, reproduced, translated, adapted, '+
   'distributed, used to train models, or incorporated into another product or service, in whole or in part, '+
   'without written permission.</p>'+
   '<p>Using Signal gives a person the right to read and use their own report. It transfers no rights over the '+
   'the methodology or the texts.</p>'+
-  '<p><b>© 2026 Victor B. Costa e Vocalis Consulting. Todos os direitos reservados.</b> '+
+  '<p><b>© 2026 Victor B. Costa and Vocalis Consulting. All rights reserved.</b> '+
   'Signal and Ten Pillars of Harmony are trademarks of Vocalis.</p>'],
  ['Terms and entity',
   '<p>Signal is operated by <b>Vocalis LLC</b>. The Ten Pillars of Harmony methodology is the intellectual property of Victor B. Costa, licensed to Signal.</p>'+
-  '<p>Payment for a defined period, <b>with no automatic renewal</b>. When it expires, it simply expires.</p>'+
+  '<p>The one-off is a single payment, valid for 30 days, and does not renew. The monthly and annual subscriptions <b>renew automatically</b> until you turn off renewal or cancel. If you cancel, access continues until the end of the period already paid, and there is no refund for the current period.</p>'+
   '<p>Questions, billing or access: <b>contact@sendsignal.live</b>.</p>'],
  ['Letter of principles',
   '<p>Signal is an <b>instrument for naming</b>, not a venting wall or a revenge ranking.</p>'+
@@ -7322,7 +7323,7 @@ R.avaliar = () => {
   '</div>';
   return '<div class="qhead"><div class="qhead__in">'+rails+
       '<div class="rail__l"><span>'+(noPerfil
-        ? '<span class="qual">Perfil</span> <b>'+(pPos/5*100).toFixed(0)+'%</b> complete'
+        ? '<span class="qual">Profile</span> <b>'+(pPos/5*100).toFixed(0)+'%</b> complete'
         : '<span class="qual">Question</span> <b>'+qPos+'</b> of 20')+'</span>'+
       '<button class="btn btn--q" data-a="ir" data-v="'+(S.result?'sinal':'home')+'">Exit</button></div></div></div>'+
     '<section class="screen q"><div class="wrap">'+
@@ -7339,7 +7340,7 @@ R.avaliar = () => {
       '<div class="qfoot"><button class="btn btn--q" data-a="qvolta" '+(i===0?'disabled':'')+'>'+I.volta+'Previous</button>'+
         '<span class="qhint">Teclas 1 a '+opts.length+' answer. Enter moves on.</span>'+
         '<button class="btn btn--p btn--sm" data-a="qsegue" '+(respondida(i)?'':'disabled')+'>'+
-        (i===ps.length-1?'Ver o meu sinal':'Next')+I.seta+'</button></div>'+
+        (i===ps.length-1?'See my signal':'Next')+I.seta+'</button></div>'+
     '</div></section>';
 };
 
@@ -7375,7 +7376,7 @@ R.apurando = () => '<section class="intro">'+
     '<div class="stack">'+
       '<div class="spin"></div>'+
       '<div><div class="eyebrow">Processing your signal</div>'+
-      '<h1 style="font-size:clamp(27px,3.6vw,38px);margin:12px 0 8px">Afinando as dez cordas</h1>'+
+      '<h1 style="font-size:clamp(27px,3.6vw,38px);margin:12px 0 8px">Tuning the ten strings</h1>'+
       '<p class="body" style="max-width:34ch;margin:0 auto">Crossing your answers with the ten pillars and separating symptom from cause.</p></div>'+
     '</div>'+
   '</div></section>';
@@ -7424,7 +7425,7 @@ R.pesquisa = () => {
         '<label class="escreve__k" for="pesqTx">Se quiser, escreva algo (opcional)</label>'+
         '<textarea id="pesqTx" rows="3" placeholder="What helped, what was missing.">'+esc(S.pesqTexto||'')+'</textarea>'+
       '</div>' : '')+
-      '<button class="btn btn--p mt20" style="width:100%" data-a="pesqEnviar">'+(n?'Send':'Enviar assim mesmo')+I.seta+'</button>'+
+      '<button class="btn btn--p mt20" style="width:100%" data-a="pesqEnviar">'+(n?'Send':'Send anyway')+I.seta+'</button>'+
       '<button class="btn btn--q mt12" style="width:100%" data-a="pesqPular">Skip this step</button>'+
     '</div>'+
   '</div></section>';
@@ -7434,6 +7435,24 @@ R.pesquisa = () => {
    "Plano" virou "Assinatura" no vocabulário do produto. A tela existe para
    responder três perguntas que a conta não respondia: o que eu tenho, até
    quando vale, e o que acontece se eu não renovar. */
+/* ---------- renovação automática (B7, 20/09) ----------
+   O avulso é pagamento único, vale 30 dias e não renova. As assinaturas renovam
+   sozinhas: o mensal no mesmo dia de cada mês, o anual na data de aniversário.
+   A renovação só para se a pessoa desligá-la ou cancelar. */
+const MESES_LONGOS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+function dataLonga(ts){ const d = new Date(ts); return MESES_LONGOS[d.getMonth()]+' '+d.getDate(); }
+function ehAssinatura(){ return S.plano === 'mensal' || S.plano === 'anual'; }
+function proximaRenovacao(){
+  const d = new Date(S.planoDesde || Date.now());
+  if(S.plano === 'anual') d.setFullYear(d.getFullYear() + 1); else d.setMonth(d.getMonth() + 1);
+  return d.getTime();
+}
+function fraseRenovacao(){
+  if(!ehAssinatura()) return '';
+  return S.renova === false
+    ? 'Renewal is off: access is valid until '+dataLonga(proximaRenovacao())+'.'
+    : 'Renews automatically on '+dataLonga(proximaRenovacao())+'.';
+}
 R.assinatura = () => {
   const ativo = S.pago;
   const ate = S.conta && S.conta.ate ? new Date(S.conta.ate).toLocaleDateString('en-US') : null;
@@ -7444,20 +7463,24 @@ R.assinatura = () => {
       '<span class="pl2__p">'+preco+'<small>'+por+'</small></span></div>'+
       '<ul class="pl2__l">'+itens.map(t=>'<li>'+I.check+'<span>'+t+'</span></li>').join('')+'</ul>'+
       (S.plano===v
-        ? '<div class="pl2__atual">Your subscription'+(ate?' · valid until '+ate:'')+'</div>'
+        ? '<div class="pl2__atual">'+(v==='avulso' ? 'Your one-off'+(ate?' · valid until '+ate:'') : 'Your subscription · '+
+            (S.renova===false ? 'valid until '+dataLonga(proximaRenovacao()) : 'renews on '+dataLonga(proximaRenovacao())))+'</div>'+
+          (v!=='avulso' ? '<button class="btn btn--q btn--sm mt12" data-a="renovacao">'+
+            (S.renova===false ? 'Turn automatic renewal back on' : 'Turn off automatic renewal')+'</button>' : '')
         : '<button class="btn btn--p btn--sm mt12" style="width:100%" data-a="assinar" data-v="'+v+'">Subscribe'+I.seta+'</button>')+
     '</div>';
   return '<section class="screen"><div class="wrap wrap--estreito">'+
     '<span class="k k--v">Subscriptions</span>'+
     '<h2 class="mt12" style="max-width:22ch">What you have, and how long it lasts.</h2>'+
     (ativo
-      ? '<p class="body mt16" style="max-width:52ch">You have access unlocked'+(ate?' until <b>'+ate+'</b>':'')+
-        '. No subscription renews itself: when it expires, you decide again.</p>'
-      : '<p class="body mt16" style="max-width:52ch">You do not have a subscription yet. The one-off unlocks a report for 30 days; subscriptions last while they are in force.</p>')+
+      ? '<p class="body mt16" style="max-width:52ch">'+(ehAssinatura()
+          ? 'Your subscription is active. '+fraseRenovacao()+' You can turn off renewal whenever you like; if you cancel, access continues until the end of the period already paid.'
+          : 'You have access unlocked'+(ate?' until <b>'+ate+'</b>':'')+'. The one-off does not renew.')+'</p>'
+      : '<p class="body mt16" style="max-width:52ch">You do not have a subscription yet. The one-off unlocks a report for 30 days and does not renew. Subscriptions renew automatically, until you turn off renewal.</p>')+
     '<div class="pl2s mt24">'+
-      plano('avulso','One-off','US$ 4,90','','One report · 15 messages · podcast for US$ 2.00'.split(' · '))+
-      plano('mensal','Monthly','US$ 6,90','/mo','Two signals a month · 50 messages a month · One podcast a month'.split(' · '), 'the first for US$ 2.00')+
-      plano('anual','Annual','US$ 42,00','/ano','Up to 25 signals a year · 50 messages a month · One podcast a month'.split(' · '), 'two months free')+
+      plano('avulso','One-off','US$ 4.90','','One report · 15 messages · podcast for US$ 2.00'.split(' · '))+
+      plano('mensal','Monthly','US$ 6.90','/mo','Two signals a month · 50 messages a month · One podcast a month'.split(' · '), 'the first for US$ 2.00')+
+      plano('anual','Annual','US$ 42.00','/yr','Up to 25 signals a year · 50 messages a month · One podcast a month'.split(' · '), '49% off')+
     '</div>'+
     '<p class="tiny mt20" style="max-width:52ch">On expiry, one-off reports revert to their own 30-day window. Nothing is deleted.</p>'+
     '<div class="rodape2 mt32"><span class="rodape2__q">'+
@@ -7514,18 +7537,18 @@ R.sala = () => {
     return '<button class="sc" data-a="abrirSinal" data-v="'+esc(sig.id||'')+'">'+
       '<span class="sc__faixa" style="background:'+e.c+'"></span>'+
       '<span class="sc__h"><span><span class="sc__n">'+esc(sig.empresa || 'No company')+'</span>'+
-        '<span class="sc__meta">'+esc(sig.pais || 'Brazil')+' · '+esc(sig.criado || 'hoje')+'</span></span>'+
+        '<span class="sc__meta">'+esc(sig.pais || 'Brazil')+' · '+esc(sig.criado || 'today')+'</span></span>'+
         '<span class="sc__v" style="color:'+e.c+'">'+(r.media!=null?r.media:'—')+'<small>%</small></span></span>'+
       '<span class="chipE mt12" style="background:color-mix(in srgb,'+e.c+' 12%,#fff);color:color-mix(in srgb,'+e.c+' 78%,#2A1618);align-self:flex-start">'+esc(e.n)+'</span>'+
       '<span class="sc__q">'+esc(r.estado ? perguntaDe(r) : 'Assessment in progress.')+'</span>'+
       '<span class="sc__f"><span class="sc__e"><span>'+esc(estadoSinal(sig))+'</span><b>'+feitas+' of '+total+'</b></span>'+
         '<span class="sc__b"><i style="width:'+(feitas/total*100).toFixed(1)+'%"></i></span>'+
-        '<span class="sc__go">Abrir'+I.seta+'</span></span>'+
+        '<span class="sc__go">Open'+I.seta+'</span></span>'+
     '</button>';
   }).join('');
   return '<section class="screen"><div class="wrap wrap--wide">'+
     '<span class="k k--v">Your signals</span>'+
-    '<h2 class="mt12">You have '+lista.length+' '+(lista.length===1?'sinal':'sinais')+'.</h2>'+
+    '<h2 class="mt12">You have '+lista.length+' '+(lista.length===1?'signal':'signals')+'.</h2>'+
     '<p class="lead mt16">Each signal is the reading of one company, at one moment. Choose which one to open.</p>'+
     '<div class="sala">'+cards+
       '<button class="sc sc--novo" data-a="criar">'+
@@ -7701,7 +7724,7 @@ function doisExercicios(){
     '<div class="dois__l">'+
       linha(1, ex1ok, 'Separate what is yours and what is not',
             'Here you look at the company and understand what you can change and what was never yours to carry.',
-            ex1ok ? 'feito' : (p1.feitos ? p1.feitos+' of '+p1.total+' pilares' : 'start'), 'pilares')+
+            ex1ok ? 'done' : (p1.feitos ? p1.feitos+' of '+p1.total+' pillars' : 'start'), 'pilares')+
       linha(2, ex2ok, 'Review where you are now',
             (function(){ const r=S.result, f=respondidas(r), t=todasPerguntas(r).length;
               if(S.respondido) return 'You wrote your answer. It stays here, and can be rewritten whenever you like.';
@@ -7710,7 +7733,7 @@ function doisExercicios(){
               const prox = proximaPergunta(r);
               return 'You stopped at step '+prox.p.ordem+', '+prox.p.titulo+'. '+(t-f)+' questions to go.'; })(),
             (function(){ const r=S.result, f=respondidas(r), t=todasPerguntas(r).length;
-              return ex2ok ? 'feito' : (f>0 ? f+' of '+t : (ex1ok ? 'start' : 'after the first')); })(),
+              return ex2ok ? 'done' : (f>0 ? f+' of '+t : (ex1ok ? 'start' : 'after the first')); })(),
             ex1ok ? (S.respondido ? 'resposta' : 'diario') : 'pilares')+
     '</div></div>';
 }
@@ -7922,7 +7945,7 @@ R.acoes = () => {
   const outros = GRUPOS.flatMap(g=>g[2]).filter(k=>lista.indexOf(k)<0);
   const tensao = outros.filter(k=>r.pilares[k] < 78), fortes = outros.filter(k=>r.pilares[k] >= 78);
   const grupo = (titulo, ks) => ks.length ? '<details class="det2"><summary>'+titulo+
-    '<span class="det2__n">'+ks.length+' '+(ks.length===1?'pilar':'pilares')+'</span>'+I.baixo+'</summary>'+
+    '<span class="det2__n">'+ks.length+' '+(ks.length===1?'pillar':'pillars')+'</span>'+I.baixo+'</summary>'+
     '<div class="det2__b">'+ks.sort((a,b)=>r.pilares[a]-r.pilares[b]).map(k=>{
       const P=CORPUS.pilares[k], v=r.pilares[k], c=stateFor(v).c;
       const sep = Object.keys(S.sep[k]||{}).length >= 3;
@@ -8064,7 +8087,7 @@ R.somar = () => {
       ? '<button class="caixao mt20" data-a="somarSinal">'+
           '<span class="caixao__ic">'+I.t_pulsos+'</span>'+
           '<span><span class="caixao__t">Add as an anonymous signal</span>'+
-          '<span class="caixao__d">No name and no verification. It only joins the pulse sum of '+esc(S.empresa)+', em '+esc(S.paisSinal)+'.</span></span>'+
+          '<span class="caixao__d">No name and no verification. It only joins the pulse sum of '+esc(S.empresa)+', in '+esc(S.paisSinal)+'.</span></span>'+
           '<span class="caixao__s">'+I.seta+'</span></button>'
       : S.empresaK
       ? '<div class="caixao caixao--off mt20">'+
@@ -8101,7 +8124,7 @@ R.convite = () => {
   const emp = S.empresaK ? empDe(S.empresaK) : null;
   const n = emp ? emp.sinais + 1 : 1;
   return '<section class="screen"><div class="wrap">'+
-    '<span class="selo">'+I.check+'Sinal somado</span>'+
+    '<span class="selo">'+I.check+'Signal added</span>'+
     '<h2 class="mt16 conv__h"><em>Done.</em> Your signal is now part of a pulse.</h2>'+
     '<p class="lead mt16">'+(emp
       ? 'Your signal joined the pulse of <b>'+esc(emp.n)+'</b>, which now has '+n+' signals.'
@@ -8124,7 +8147,7 @@ R.meio = () => {
         Array.from({length:8},(_,i)=>'<path d="'+ondaH(1200,600,16+i*2,2+i*.15,i*.13,130+i*52)+'"/>').join('')+
       '</svg>'+
       '<div class="mhero__in">'+
-        '<span class="selo selo--d">'+I.check+'Primeira parte feita</span>'+
+        '<span class="selo selo--d">'+I.check+'First part done</span>'+
         '<h1 class="mhero__h">You have separated what is yours <em>from what is not.</em></h1>'+
         '<p class="mhero__l">The second part is still missing, the one that looks at you. That is where your answer is born.</p>'+
         '<div class="mhero__n"><div><b>1 of 2</b>exercises done</div></div>'+
@@ -8134,7 +8157,7 @@ R.meio = () => {
       '<span class="passo1__n">'+I.check+'</span>'+
       '<span><span class="passo1__t">Separate what is mine</span>'+
         '<span class="passo1__d">You read the most strained pillars and marked what is within your reach.</span></span>'+
-      '<span class="passo1__s">feito</span>'+
+      '<span class="passo1__s">done</span>'+
     '</div>'+
     '<button class="passo2" data-a="irDiario">'+
       '<span class="passo2__n">2</span>'+
@@ -8144,12 +8167,12 @@ R.meio = () => {
       '<span class="passo2__s">'+I.seta+'</span>'+
     '</button>'+
     '<div class="salvo"><span class="salvo__i">'+I.salvo+'</span>'+
-      '<span><span class="salvo__t">Nada se perde no caminho</span>'+
+      '<span><span class="salvo__t">Nothing is lost along the way</span>'+
       '<span class="salvo__d">You can leave whenever you like and come back later. Your answers stay saved here.</span></span></div>'+
     '<div class="rodape2 mt32">'+
       '<span class="rodape2__q">'+
         '<button class="btn btn--q" data-a="ir" data-v="'+(S.somado?'convite':'somar')+'">'+I.volta+'Back</button>'+
-        '<button class="btn btn--q" data-a="ir" data-v="sinal">Voltar depois</button>'+
+        '<button class="btn btn--q" data-a="ir" data-v="sinal">Come back later</button>'+
       '</span>'+
       '<button class="btn btn--p" data-a="irDiario">Review my moment'+I.seta+'</button>'+
     '</div>'+
@@ -8161,7 +8184,7 @@ R.meio = () => {
 function barraDoSinal(){
   const outros = (S.sinais||[]).length;
   if(!outros) return '';
-  const quando = S.criadoEm ? new Date(S.criadoEm).toLocaleDateString('en-US') : 'hoje';
+  const quando = S.criadoEm ? new Date(S.criadoEm).toLocaleDateString('en-US') : 'today';
   return '<div class="bsin">'+
     '<span class="bsin__t">Journal of <b>'+esc(S.empresa || 'company not identified')+'</b>'+
     '<span class="bsin__d"> · signal for '+quando+'</span></span>'+
@@ -8231,7 +8254,7 @@ R.diario = () => {
         corpo += '<div class="eu"><div class="eu__b">'+esc(resp)+'</div>'+
           '<div class="eu__meta"><span class="eu__data">'+dataBr(S.diarioEm[q.id]||Date.now())+'</span>'+
           (S.diarioEd[q.id] ? '<span class="editado">editado</span>' : '')+
-          '<button class="eu__ed" data-a="editar" data-v="'+q.id+'">'+I.lapis+'Editar</button></div></div>';
+          '<button class="eu__ed" data-a="editar" data-v="'+q.id+'">'+I.lapis+'Edit</button></div></div>';
       } else {
         corpo += '<div class="escreve"><textarea id="dtx" placeholder="Write it in your own words. It does not need to be polished.">'+esc(S.rascunho||resp||'')+'</textarea>'+
           '<div class="escreve__r"><span class="escreve__dica">Ctrl + Enter guarda e segue</span>'+
@@ -8291,7 +8314,7 @@ R.saiu = () => {
   const o = ondeParou(r), feitas = respondidas(r);
   const temRascunho = (S.rascunho||'').trim().length > 0;
   return '<section class="screen"><div class="wrap saiu">'+
-    '<span class="selo">'+I.check+'Tudo guardado</span>'+
+    '<span class="selo">'+I.check+'All saved</span>'+
     '<h2 class="mt16">You can come back whenever you like.</h2>'+
     '<div class="saiu__c mt24">'+
       '<p class="body">'+o.texto+' '+
@@ -8306,7 +8329,7 @@ R.saiu = () => {
     '</div>'+
     '<div class="rodape2 mt24"><span class="rodape2__q">'+
       '<button class="btn btn--q" data-a="ir" data-v="sinal">Go to My signal</button></span>'+
-      '<button class="btn btn--p" data-a="voltarDiario">Continuar agora'+I.seta+'</button></div>'+
+      '<button class="btn btn--p" data-a="voltarDiario">Continue now'+I.seta+'</button></div>'+
   '</div></section>';
 };
 
@@ -8349,7 +8372,7 @@ R.resposta = () => {
         '<p class="rpfeito__t">'+esc(escrita)+'</p>'+
         '<div class="rpfeito__m"><span class="rpfeito__d">'+dataBr(S.respostaEm||Date.now())+'</span>'+
         (S.respostaEd ? '<span class="editado" style="color:#8E86A0">editado</span>' : '')+
-        '<button class="rpfeito__ed" data-a="editarResp">'+I.lapis+'Editar</button></div></div>'+
+        '<button class="rpfeito__ed" data-a="editarResp">'+I.lapis+'Edit</button></div></div>'+
       '</div>'
     : '<div class="rp__box"><textarea id="rtx" placeholder="Write your answer. One sentence is enough, if it is true.">'+esc(S.rascunhoResp||escrita||'')+'</textarea>'+
       '<div class="rp__r">'+
@@ -8388,7 +8411,7 @@ function fechamento(){
       '<span class="ab__ic">'+ic+'</span>'+
       '<span class="ab__k">'+k+'</span>'+
       '<span class="ab__t">'+n+'</span><span class="ab__d">'+d+'</span>'+
-      '<span class="ab__go">Abrir'+I.seta+'</span></button>';
+      '<span class="ab__go">Open'+I.seta+'</span></button>';
   return '<div class="lv mt32">'+
       '<svg class="lv__f" viewBox="0 0 1200 600" preserveAspectRatio="none" aria-hidden="true">'+
         Array.from({length:7},(_,i)=>'<path d="'+ondaH(1200,600,14+i*2,2+i*.17,i*.16,150+i*54)+'"/>').join('')+
@@ -8571,7 +8594,7 @@ R.ass = () => {
 /* ============================================================
    PULSOS DO MUNDO
    ============================================================ */
-const JANELAS = [['7','1 semana'],['30','1 month'],['180','6 meses'],['365','1 ano'],['todo','All time']];
+const JANELAS = [['7','1 week'],['30','1 month'],['180','6 months'],['365','1 year'],['todo','All time']];
 function sinaisNaJanela(e){ return e.janela[S.pJanela] != null ? e.janela[S.pJanela] : e.sinais; }
 function vozesDe(e){
   const n = sinaisNaJanela(e);
@@ -8604,7 +8627,7 @@ R.pulsos = () => {
       '<span><span class="pli__n">'+esc(e.n)+'</span><span class="pli__p">'+esc(e.pais)+'</span></span>'+
       '<span class="pli__h"><span class="pli__b"><i style="width:'+e.nota+'%;background:'+c+'"></i></span>'+
         '<span class="pli__v" style="color:'+c+'">'+e.nota+'%</span></span>'+
-      '<span class="pli__s">'+v+'<small>'+(S.pRecorte==='comp'?'comprovadas':'declaradas')+'</small></span>'+
+      '<span class="pli__s">'+v+'<small>'+(S.pRecorte==='comp'?'verified':'declared')+'</small></span>'+
     '</button>';
   }).join('') : '<div class="pvazio">No company has a pulse in this filter. Try a wider time window.</div>';
 
@@ -8658,7 +8681,7 @@ function resumoRecorte(){
   const p = [];
   if(S.pPais!=='todos') p.push(rotuloPais(S.pPais));
   p.push(rotuloDe(JANELAS, S.pJanela));
-  if(S.pRecorte!=='decl') p.push('comprovadas');
+  if(S.pRecorte!=='decl') p.push('verified');
   if(S.pOrdem!=='maior') p.push(rotuloDe(F_ORDEM, S.pOrdem).toLowerCase());
   return p.join(' · ');
 }
@@ -8742,7 +8765,7 @@ R.minhaEmpresa = () => {
   const e = PULSOS.find(x=>chaveEmp(x.n)===chaveEmp(nome)) || null;
   const outros = (S.sinais||[]).filter(x=>x.empresa && x.somado);
   const sel = outros.length
-    ? '<div class="selemp">'+[{empresa:S.empresa, criado:S.criadoEm||'hoje', id:S.sinalId}].concat(outros).map(x=>
+    ? '<div class="selemp">'+[{empresa:S.empresa, criado:S.criadoEm||'today', id:S.sinalId}].concat(outros).map(x=>
         '<button class="'+(x.empresa===nome?'on':'')+'" data-a="'+(x.empresa===nome?'nada':'trocarEmpresa')+'" data-v="'+esc(x.id||'')+'">'+
         /* a data vinha como número cru grudado no nome */
         '<b>'+esc(x.empresa)+'</b><span>'+esc(dataBr(x.criado))+'</span></button>').join('')+'</div>'
@@ -8806,11 +8829,11 @@ R.vozes = () => {
       '<div class="vzi__m">'+
         '<button class="res'+(ress?' on':'')+'" data-a="vRessoar" data-v="'+a.id+'" aria-pressed="'+ress+'">'+
           I.onda+'<span>'+(ress?'You resonated':'Tap to resonate')+'</span></button>'+
-        '<span class="vzi__n"><b>'+(a.n + (ress?1:0))+'</b> '+((a.n+(ress?1:0))===1?'pessoa ressoa':'pessoas ressoam')+'</span>'+
+        '<span class="vzi__n"><b>'+(a.n + (ress?1:0))+'</b> '+((a.n+(ress?1:0))===1?'person resonates':'people resonate')+'</span>'+
         '<span class="vzi__p">'+esc(a.paises.slice(0,3).join(' · '))+(a.paises.length>3?' · +'+(a.paises.length-3):'')+'</span>'+
       '</div></div>'+
       '<button class="vzi__b'+(on?' on':'')+'" data-a="vNovidade" data-v="'+a.id+'">'+
-        (on?'Novidades ativas':'Tap to receive updates')+'</button>'+
+        (on?'Updates on':'Tap to receive updates')+'</button>'+
     '</div>';
   }).join('') : '<div class="pvazio">No subjects from this country yet. Propose the first one.</div>';
   return '<section class="screen"><div class="wrap wrap--wide">'+
@@ -8830,7 +8853,7 @@ R.vozes = () => {
    CONTA
    ============================================================ */
 const JORNADAS_N = {A:'Owner or co-founder', B:'Employee with a leadership role', C:'Employee',
-                    D:'Operations', E:'Provides services', Z:'Investidor'};
+                    D:'Operations', E:'Provides services', Z:'Investor'};
 function linhaConta(titulo, desc, acao, rotulo, leve){
   return '<div class="ctl"><div><span class="ctl__t">'+titulo+'</span>'+
     (desc ? '<span class="ctl__d">'+desc+'</span>' : '')+'</div>'+
@@ -8853,8 +8876,8 @@ R.conta = () => {
     const rr = sig.result || {}, e = rr.estado || {n:'—', c:'#B9B4C7'};
     const f = decisoesFeitas(sig), t = totalDecisoes();
     return '<div class="cts"><div><span class="cts__n">'+esc(sig.empresa||'No company')+'</span>'+
-      '<span class="cts__d">'+esc(sig.criado||'hoje')+' · '+esc(e.n)+' · '+(rr.media!=null?rr.media+'%':'—')+'</span></div>'+
-      '<span class="cts__e">'+((sig.resposta||'').trim() ? 'Answered' : 'Em andamento')+'<br>'+f+' of '+t+'</span>'+
+      '<span class="cts__d">'+esc(sig.criado||'today')+' · '+esc(e.n)+' · '+(rr.media!=null?rr.media+'%':'—')+'</span></div>'+
+      '<span class="cts__e">'+((sig.resposta||'').trim() ? 'Answered' : 'In progress')+'<br>'+f+' of '+t+'</span>'+
       '<button class="cts__x" data-a="apagarSinal" data-v="'+esc(sig.id||'')+'" aria-label="Delete this signal">'+I.x+'</button></div>';
   }).join('');
 
@@ -8871,16 +8894,19 @@ R.conta = () => {
         linhaConta('Two-factor authentication', 'One extra code at sign-in, beyond the email.', 'doisFatores', 'Enable')+
       '</div>'+
       '<div class="ctc"><p class="ctc__k">Plan</p>'+
-        linhaConta(S.pago ? 'Monthly · US$ 6.90' : 'Nenhum plano ativo',
-          S.pago ? 'No automatic renewal. Expires on October 14, thirty days from now.'
-                 : 'Unlock a report to begin.', 'verPlanos', 'See plans')+
+        linhaConta(!S.pago ? 'Nenhum plano ativo'
+            : S.plano==='anual' ? 'Annual · US$ 42.00/yr'
+            : S.plano==='mensal' ? 'Monthly · US$ 6.90/mo' : 'One-off · US$ 4.90',
+          !S.pago ? 'Unlock a report to begin.'
+            : ehAssinatura() ? fraseRenovacao()
+            : 'Valid until '+dataLonga((S.conta||{}).ate || Date.now())+'. The one-off does not renew.', 'verPlanos', 'See plans')+
         '<div class="med">'+
-          medidor('Signals this month', usados, 2)+
+          medidor(ehAssinatura() && S.plano==='mensal' ? 'Signals until '+dataLonga(proximaRenovacao()) : 'Signals this cycle', usados, 2)+
           medidor('Assistant messages', msgs, COTA)+
           medidor('Podcast of the month', 0, 1)+
         '</div>'+
         linhaConta('More assistant messages', 'A pack of 30 messages for this cycle, US$ 4.90.', 'liberarMsg', 'Buy')+
-        linhaConta('Change or cancel', 'No automatic renewal: the plan simply expires.', 'gerenciar', 'Manage', true)+
+        linhaConta('Change or cancel', 'Change plans or turn off automatic renewal.', 'gerenciar', 'Manage', true)+
       '</div>'+
       '<div class="ctc"><p class="ctc__k">My signals</p>'+ (sinais || '<div class="ctl"><span class="ctl__d">You have not created any signal yet.</span></div>') +
         linhaConta('Create signal', 'Assess another company, or redo the reading of one of them.', 'criar', 'Create')+
@@ -9024,7 +9050,13 @@ function render(op={}){
   if(!op.mantem) window.scrollTo(0,0);
   save();
 }
-function ir(r,op){ if(r!==S.rota) anterior = S.rota; S.rota = r; render(op); }
+function ir(r,op){
+  if(r!==S.rota) anterior = S.rota;
+  /* o Assistente só existe em Ações e no Diário: a gaveta fecha ao sair deles,
+     e a Resposta é sempre um input puro da pessoa, sem IA (A8, 20/09) */
+  if(S.gaveta && ['acoes','diario'].indexOf(r) < 0) S.gaveta = false;
+  S.rota = r; render(op);
+}
 let tToast;
 function toast(m){ const t=$('#toast'); t.textContent=m; t.classList.add('on');
   clearTimeout(tToast); tToast=setTimeout(()=>t.classList.remove('on'),2600); }
@@ -9082,7 +9114,10 @@ A.googleOk = () => {
   S.email = 'you@gmail.com'; S.emailGoogle = true; render({mantem:true});
 };
 A.termos = () => {
-  const i = $('#em'); if(i) S.email = (i.value||'').trim();   /* não perder o que já foi digitado */
+  /* marcar o aceite redesenha a tela: sem guardar o que já foi digitado, o
+     e-mail sumia e a pessoa levava "escreva um e-mail válido" olhando para o
+     campo que acabou de preencher */
+  const i = $('#em'); if(i) S.email = (i.value||'').trim();
   S.termos = !S.termos; render({mantem:true});
 };
 A.emailOk = (auto) => {
@@ -9195,7 +9230,7 @@ A.abrirPaisSinal = () => {
     '<p class="body mt8" style="font-size:.9rem">If you are assessing an operation in another country, choose that country.</p>'+
     '<span class="fbusca mt12">'+I.lupa+'<input id="qps" placeholder="Search country or dial code" value="'+esc(S.buscaPaisSinal||'')+'" autocomplete="off"></span>'+
     '<div class="pais__b">'+(corpo || '<div class="pvazio">No country with that name.</div>')+'</div>'+
-    '<div class="mt16"><button class="btn btn--q" data-a="fecha">Fechar</button></div></div>');
+    '<div class="mt16"><button class="btn btn--q" data-a="fecha">Close</button></div></div>');
 };
 A.escolherPaisSinal = v => { S.paisSinal = v; S.buscaPaisSinal=''; fechaModal(); render({mantem:true}); };
 A.pularSomar = () => { S.somarPulado = true; ir('meio'); };
@@ -9228,14 +9263,14 @@ A.abrirArte = () => {
     S._arteSinal = url;
     const canais = [[I.wa,'WhatsApp'],[I.ig,'Stories'],[I.li,'LinkedIn'],[I.sms,'Message'],[I.mail,'Email'],[I.share,'Other']];
     modal('<div class="artem"><span class="k k--v">send out your signal</span>'+
-      '<h3>Chame outras vozes</h3>'+
+      '<h3>Call on other voices</h3>'+
       '<p class="body">An image for stories and WhatsApp. It invites without revealing any number, company or result.</p>'+
       '<div class="artetg mt16">'+
-        '<button class="'+(S.arteEscura?'':'on')+'" data-a="arteFundo" data-v="claro">Claro</button>'+
-        '<button class="'+(S.arteEscura?'on':'')+'" data-a="arteFundo" data-v="escuro">Escuro</button>'+
+        '<button class="'+(S.arteEscura?'':'on')+'" data-a="arteFundo" data-v="claro">Light</button>'+
+        '<button class="'+(S.arteEscura?'on':'')+'" data-a="arteFundo" data-v="escuro">Dark</button>'+
       '</div>'+
       '<img class="arte mt24" src="'+url+'" alt="Signal art to share">'+
-      '<div class="mt16" style="text-align:center"><button class="artenova" data-a="arteOutra">'+I.refaz+'Gerar outra</button></div>'+
+      '<div class="mt16" style="text-align:center"><button class="artenova" data-a="arteOutra">'+I.refaz+'Generate another</button></div>'+
       '<div class="mt16"><button class="btn btn--p" style="width:100%" data-a="copiar">Share</button></div>'+
       '<div class="artesh">'+canais.map(([ic,n])=>
         '<button data-a="copiar"><span class="cvs__c">'+ic+'</span><span class="cvs__l">'+n+'</span></button>').join('')+'</div>'+
@@ -9328,11 +9363,11 @@ A.irMinhaEmpresa = () => {
     '<h3>Which company do you want to see?</h3>'+
     '<div class="pais__b">'+
       '<button class="pais__i" data-a="verMinha" data-v="'+esc(S.sinalId||'')+'">'+esc(S.empresa)+
-        '<span>'+esc(S.criadoEm||'hoje')+'</span></button>'+
+        '<span>'+esc(S.criadoEm||'today')+'</span></button>'+
       outros.map(x=>'<button class="pais__i" data-a="verMinha" data-v="'+esc(x.id||'')+'">'+esc(x.empresa)+
         '<span>'+esc(x.criado||'')+'</span></button>').join('')+
     '</div>'+
-    '<div class="mt16"><button class="btn btn--q" data-a="fecha">Fechar</button></div></div>');
+    '<div class="mt16"><button class="btn btn--q" data-a="fecha">Close</button></div></div>');
 };
 A.verMinha = v => { fechaModal(); if(v && v!==S.sinalId) A.abrirSinal(v, 'minhaEmpresa'); else ir('minhaEmpresa'); };
 A.trocarEmpresa = v => { if(v && v!==S.sinalId) A.abrirSinal(v, 'minhaEmpresa'); };
@@ -9373,7 +9408,7 @@ A.verPulso = v => { S.pAberto = v; ir('pulsoDet'); };
 A.retirar = () => modal('<h3>Withdraw my signal from the pulse</h3>'+
   '<p class="body mt12">Your signal leaves this company\'s sum and the pulse is recalculated without it. '+
   'Your reading stays here, and you can add it again whenever you like.</p>'+
-  '<div class="row mt24"><button class="btn btn--p" data-a="retirarOk">Retirar</button>'+
+  '<div class="row mt24"><button class="btn btn--p" data-a="retirarOk">Withdraw</button>'+
   '<button class="btn btn--q" data-a="fecha">Cancel</button></div>');
 A.retirarOk = () => { S.somado = null; fechaModal(); toast('Signal withdrawn from the pulse.'); ir('pulsos'); };
 A.vPais = v => { S.vPais = v; render({mantem:true}); };
@@ -9394,13 +9429,13 @@ A.abrirPaises = () => {
     if(!ps.length) return;
     corpo += '<p class="pais__c">'+c+'</p>'+ ps.map(p=>
       '<button class="pais__i'+(S.vPais===p?' on':'')+'" data-a="escolherPais" data-v="'+esc(p)+'">'+
-      esc(p)+'<span>'+tot[p]+' '+(tot[p]===1?'assunto':'assuntos')+'</span></button>').join('');
+      esc(p)+'<span>'+tot[p]+' '+(tot[p]===1?'subject':'subjects')+'</span></button>').join('');
   });
   modal('<div class="pais"><span class="k k--v">countries with a subject</span>'+
     '<h3>Choose a country</h3>'+
     '<span class="fbusca">'+I.lupa+'<input id="pqp" placeholder="Search country" value="'+esc(S.vBuscaPais||'')+'" autocomplete="off"></span>'+
     '<div class="pais__b">'+(corpo || '<div class="pvazio">No country with that name.</div>')+'</div>'+
-    '<div class="mt16"><button class="btn btn--q" data-a="fecha">Fechar</button></div></div>');
+    '<div class="mt16"><button class="btn btn--q" data-a="fecha">Close</button></div></div>');
 };
 A.escolherPais = v => { S.vPais = v; S.vBuscaPais=''; fechaModal(); render({mantem:true}); };
 /* propor um assunto passa a exigir o país: sem isso o filtro não funciona e
@@ -9410,8 +9445,8 @@ A.proporAssunto = () => {
     '<h3 class="mt8">What is going on out there?</h3>'+
     '<p class="body mt12">Signal reviews before publishing. Subjects are by country: yours joins the list for people there.</p>'+
     '<div class="escreve escreve--pq mt20">'+
-      '<label class="escreve__k" for="vaTx">O assunto</label>'+
-      '<textarea id="vaTx" rows="2" placeholder="In one sentence, what people are living through."></textarea>'+
+      '<label class="escreve__k" for="vaTx">The subject</label>'+
+      '<textarea id="vaTx" rows="2" placeholder="In one sentence, what people are living through.">'+esc(S.rascunhoAssunto||'')+'</textarea>'+
     '</div>'+
     '<button class="paisSel mt16" data-a="abrirPaisAssunto">'+
       '<span class="paisSel__k">Country of the subject</span>'+
@@ -9421,6 +9456,9 @@ A.proporAssunto = () => {
     '<button class="btn btn--q mt12" style="width:100%" data-a="fecha">Not now</button></div>');
 };
 A.abrirPaisAssunto = () => {
+  /* a lista de países abre no lugar da tela do assunto: sem guardar antes, o
+     texto digitado se perdia (D6, 20/09) */
+  const tx = document.getElementById('vaTx'); if(tx) S.rascunhoAssunto = tx.value;
   const cont = paisesPorContinente();
   let corpo = '';
   Object.keys(cont).forEach(c => {
@@ -9439,7 +9477,7 @@ A.enviarAssunto = () => {
   const t = el ? el.value.trim() : '';
   if(!t) return toast('Write the subject before sending.');
   if(!S.paisAssunto) return toast('Choose the country of the subject.');
-  fechaModal(); S.paisAssunto=''; toast('Sent for review. Thank you.');
+  fechaModal(); S.paisAssunto=''; S.rascunhoAssunto=''; toast('Sent for review. Thank you.');
 };
 /* o mesmo seletor das Vozes, agora para os pulsos */
 A.abrirPaisesPulso = () => {
@@ -9459,7 +9497,7 @@ A.abrirPaisesPulso = () => {
     '<h3>Choose a country</h3>'+
     '<span class="fbusca">'+I.lupa+'<input id="pqpp" placeholder="Search country" value="'+esc(S.pBuscaPais||'')+'" autocomplete="off"></span>'+
     '<div class="pais__b">'+(corpo || '<div class="pvazio">No country with that name.</div>')+'</div>'+
-    '<div class="mt16"><button class="btn btn--q" data-a="fecha">Fechar</button></div></div>');
+    '<div class="mt16"><button class="btn btn--q" data-a="fecha">Close</button></div></div>');
 };
 A.escolherPaisPulso = v => { S.pPais = v; S.pBuscaPais=''; fechaModal(); render({mantem:true}); };
 A.baixarRel = () => {
@@ -9488,29 +9526,49 @@ A.verPlanos = () => ir('assinatura');
 A.entrarConta = () => { S.voltando = true; ir('email'); };
 /* ninguém assina sem confirmar: o Rafael assinou um plano sem querer no fluxo
    antigo, e o botão de assinar fica a um toque de distância */
-const PLANOS_T = { avulso:['One-off','US$ 4,90','one report, unlocked for 30 days'],
-  mensal:['Monthly','US$ 6,90','two signals a month, billed monthly'],
-  anual:['Annual','US$ 42,00','up to 25 signals a year, charged once'] };
+/* o que cada plano cobra, dito por inteiro na confirmação (B7, 20/09): a
+   renovação automática exige consentimento explícito e separado */
+const PLANOS_T = {
+  avulso:['One-off', 'That is <b>US$ 4.90</b>, one report unlocked for 30 days. <b>It does not renew.</b>'],
+  mensal:['Monthly', 'That is <b>US$ 2.00 for the first month</b> and <b>US$ 6.90 for each month after</b>, charged automatically on the same day each month. Two signals per cycle.'],
+  anual:['Annual', 'That is <b>US$ 42.00 per year</b>, charged automatically on the same date each year. We notify you 7 days before each renewal. Up to 25 signals a year.']
+};
 A.assinar = v => {
   const p = PLANOS_T[v]; if(!p) return;
+  const renova = v !== 'avulso';
   modal('<span class="k k--v">confirm</span>'+
     '<h3 class="mt8">Subscribe to the '+p[0]+' plan?</h3>'+
-    '<p class="body mt12">That is <b>'+p[1]+'</b>, '+p[2]+'. <b>It does not renew itself</b>: when it expires, you decide again.</p>'+
-    '<div class="mt24"><button class="btn btn--p" style="width:100%" data-a="assinarOk" data-v="'+v+'">Confirm subscription'+I.seta+'</button>'+
+    '<p class="body mt12">'+p[1]+'</p>'+
+    (renova
+      ? '<p class="body mt12">The subscription <b>renews automatically</b> until you turn off renewal in Subscriptions. If you cancel, access continues until the end of the period already paid.</p>'+
+        '<label class="termos mt16"><input type="checkbox" id="ckRenova"> <span>I understand that this subscription renews automatically.</span></label>'
+      : '')+
+    '<div class="mt24"><button class="btn btn--p" style="width:100%" data-a="assinarOk" data-v="'+v+'">Confirm'+I.seta+'</button>'+
     '<button class="btn btn--q mt12" style="width:100%" data-a="fecha">Cancel</button></div>');
 };
 A.assinarOk = v => {
-  S.plano = v; S.pago = true; liberaConta(); fechaModal();
-  toast('Assinatura ativa. Nada renova sozinho.');
+  if(v !== 'avulso'){
+    const ck = document.getElementById('ckRenova');
+    if(!ck || !ck.checked) return toast('Confirm that you understand the automatic renewal.');
+  }
+  S.plano = v; S.pago = true; S.planoDesde = Date.now(); S.renova = v !== 'avulso';
+  liberaConta(); fechaModal();
+  toast(v === 'avulso' ? 'Report unlocked for 30 days.' : 'Subscription active. It renews automatically; you can turn this off in Subscriptions.');
   render();
 };
+/* desligar e religar a renovação, pelo mesmo caminho em que se assina */
+A.renovacao = () => {
+  S.renova = S.renova === false;
+  toast(S.renova ? 'Automatic renewal turned back on.' : 'Renewal turned off. Access is valid until '+dataLonga(proximaRenovacao())+'.');
+  render({mantem:true});
+};
 A.irConta = v => { S.menuConta=false; if(v==='suporte'){ A.suporte(); return; } ir(v); };
-A.suporte = () => { S.menuConta=false; modal('<span class="k">Suporte</span>'+
+A.suporte = () => { S.menuConta=false; modal('<span class="k">Support</span>'+
   '<h3 class="mt8">Talk to us</h3>'+
   '<p class="body mt12">Questions about your report, billing or access: write to '+
   '<b>contact@sendsignal.live</b>. We reply within two business days.</p>'+
-  '<div class="mt24"><button class="btn btn--p" style="width:100%" data-a="fecha">Entendi</button></div>'); };
-A.gerenciar = () => toast('No automatic renewal: the plan simply expires.');
+  '<div class="mt24"><button class="btn btn--p" style="width:100%" data-a="fecha">Got it</button></div>'); };
+A.gerenciar = () => ir('assinatura');   /* cancelar pelo mesmo caminho em que se assina (B7) */
 A.irPoliticas = () => ir('politicas');
 A.exportar = () => { A.baixarRel(); };
 A.encerrar = () => modal('<h3>Encerrar a conta</h3>'+
@@ -9584,7 +9642,7 @@ function respostaAss(txt){
   return 'In your portrait, the average is at <b>'+r.media+'%</b>, in <b>'+r.estado.n+'</b>. Tell me what is going on and I will look at it with you, using your numbers.';
 }
 function gaveta(){
-  if(!S.gaveta) return '';
+  if(!S.gaveta || S.rota === 'resposta') return '';
   const n = S.chat.filter(m=>m.eu).length, esgotou = n >= COTA;
   const msgs = S.chat.length
     ? S.chat.map(m=>'<div class="gm gm--'+(m.eu?'u':'a')+'">'+m.t+'</div>').join('')
@@ -9594,7 +9652,7 @@ function gaveta(){
     '<div class="gav__p" role="dialog" aria-label="Signal Assistant">'+
       '<div class="gav__h"><span class="gav__av"><span class="mark"></span></span>'+
         '<div><div class="gav__t">Assistant</div><div class="gav__c">'+n+' of '+COTA+' messages</div></div>'+
-        '<button class="gav__x" data-a="fecharGav" aria-label="Fechar">'+I.x+'</button></div>'+
+        '<button class="gav__x" data-a="fecharGav" aria-label="Close">'+I.x+'</button></div>'+
       '<div class="gav__b" id="gavB">'+msgs+'</div>'+
       '<div class="gav__f">'+
         (esgotou
@@ -9633,7 +9691,7 @@ A.metodologia = () => modal('<div class="mpop">'+
   '<p>This is Vocalis\'s proprietary methodology, built on 15+ years of research and professional experience, used by Signal to read your signal.</p>'+
   '<p>Vocalis has already reached more than 1,000 professionals across North America and Latin America, and now, through Signal, this methodology reaches you.</p>'+
   '<div class="mpop__b"><button class="btn btn--g btn--sm" data-a="maisInfo">Get more information</button>'+
-  '<button class="btn btn--q" data-a="fecha">Fechar</button></div></div>');
+  '<button class="btn btn--q" data-a="fecha">Close</button></div></div>');
 A.maisInfo = () => { fechaModal(); toast('We have sent more information to your email.'); };
 A.novoOk = () => { fechaModal();
   /* o sinal atual vai para a estante antes de começar outro */
