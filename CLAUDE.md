@@ -34,7 +34,7 @@ reach is an action and starts with a verb; what is not is a condition.
 
 1. Regenerate: `python3 tools/apply_translation.py <pt> Signal_M2_English.html`.
 2. Copy it to `index.html`. The two must be identical.
-3. Run all six suites (`tests/README.md`) and the checks in `docs/AUDIT.md`.
+3. Run all ten suites (`tests/README.md`) and the checks in `docs/AUDIT.md`.
 4. Record it in `CHANGELOG.md`: what changed **and why**.
 
 ## Technical traps

@@ -2,7 +2,8 @@
 
 **Signal** turns what people perceive at work into a structured reading of
 organizational harmony, through the **Ten Pillars of Harmony™**, the
-methodology of Victor B. Costa and Vocalis Consulting.
+methodology created by Victor B. Costa and used under license by Vocalis
+Consulting. The product is **Signal by Vocalis**.
 
 This repository holds the **English build** of Milestone 2: a single
 self-contained HTML file, with no server, no build step and no dependencies.
@@ -17,7 +18,7 @@ self-contained HTML file, with no server, no build step and no dependencies.
 | `index.html` | **An identical copy of the product**, so the site root opens Signal directly. |
 | `_headers` | No-store caching, so people always get the current build. |
 | `docs/` | Rules, deterministic core, screens, data model, design, translation, audit. |
-| `tests/` | Six Playwright suites, 90 checks. |
+| `tests/` | Ten Playwright suites, 198 checks. |
 | `translation/` | The two Portuguese to English maps that produce this build. |
 | `tools/` | The script that generates the build, and the data comparison check. |
 
